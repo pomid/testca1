@@ -30,6 +30,29 @@ class OwnerTest {
 		assertEquals(randomCity, o.getCity());
 	}
 
+	@Test
+	void testAddress(){
+		Owner o = new Owner();
+		String r = "random Address";
+		o.setAddress(r);
+		assertEquals(r, o.getAddress());
+	}
+
+	@Test
+	void testTelephone(){
+		Owner o = new Owner();
+		String r = "random Telephone";
+		o.setTelephone(r);
+		assertEquals(r, o.getTelephone());
+	}
+
+	@Test
+	void testCity(){
+		Owner o = new Owner();
+		String r = "random City";
+		o.setCity(r);
+		assertEquals(r, o.getCity());
+	}
 
 	@Test
 	void testPets(){
