@@ -141,7 +141,7 @@
     <dependency>
       <groupId>com.github.mryf32</groupId>
       <artifactId>tractatus</artifactId>
-      <version>1.0.4</version>
+      <version>1.0.3</version>
     </dependency>
     <dependency>
       <groupId>org.jsoup</groupId>
